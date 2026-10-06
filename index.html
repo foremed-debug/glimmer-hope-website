@@ -1,76 +1,68 @@
-```html
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Glimmer of Hope Medical Center — PRP, PRF, BMAC, SVF & Exosomes</title>
-<meta name="description" content="Certified autologous cell therapy center in Damascus — PRP, PRF, BMAC, SVF & Exosomes across 20 specialties. Treating patients and training medical professionals worldwide." />
-<link rel="canonical" href="https://www.glimmerhopemed.com/" />
-<link rel="icon" href="https://www.glimmerhopemed.com/assets/other/36af2acc803f28b28a8abc2fcea56a9d.ico" />
-<link rel="alternate" hreflang="en" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="ar" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="de" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="fr" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="ru" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="es" href="https://www.glimmerhopemed.com/" />
-<link rel="alternate" hreflang="x-default" href="https://www.glimmerhopemed.com/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Glimmer of Hope Medical Center" />
-<meta property="og:url" content="https://www.glimmerhopemed.com/" />
-<meta property="og:title" content="Glimmer of Hope Medical Center — Autologous Cell Therapy" />
-<meta property="og:description" content="Certified autologous cell therapies — PRP, PRF, BMAC, SVF, Exosomes — across 20 clinical specialties. Damascus • Dubai." />
-<meta property="og:image" content="https://www.glimmerhopemed.com/airo-assets/images/og/site-og-image" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@glimmerhopemed" />
-<meta name="google-site-verification" content="k0bJgi7MiIROidoA620TJB4Cn6cdLvOdGN-pGCiIj9w" />
-<script src="https://cdn.tailwindcss.com"></script>
+<meta name="description" content="Certified autologous cell therapy center in Damascus — PRP, PRF, BMAC, SVF & Exosomes across 20 specialties." />
+<link rel="canonical" href="./index.html" />
+<link rel="icon" href="./assets/other/36af2acc803f28b28a8abc2fcea56a9d.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- FIX FOUC GLITCH -->
+<style>
+  html { visibility: hidden; opacity: 0; }
+  html.loaded { visibility: visible; opacity: 1; transition: opacity 0.2s ease-in; }
+  :root{--font-heading:\'Montserrat\',sans-serif;--font-sans:\'Inter\',sans-serif;}
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
 <script>
+// FIX ESCAPED QUOTES - was \\'#1A237E\\'
 tailwind.config = {
-theme: {
-extend: {
-colors: { primary: '#1A237E', primaryDark: '#0D1B6E', accent: '#E53935', muted: '#E8EAF6', lightbg: '#F5F5F5' },
-fontFamily: { heading: ['Montserrat','sans-serif'], sans: ['Inter','sans-serif'] }
-}
-}
+  theme: {
+    extend: {
+      colors: { primary: \'#1A237E\', primaryDark: \'#0D1B6E\', accent: \'#E53935\', muted: \'#E8EAF6\', lightbg: \'#F5F5F5\' },
+      fontFamily: { heading: [\'Montserrat\',\'sans-serif\'], sans: [\'Inter\',\'sans-serif\'] }
+    }
+  }
 }
 </script>
-<style>:root{--font-heading:'Montserrat',sans-serif;--font-sans:'Inter',sans-serif;}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.glimmerhopemed.com/#website","name":"Glimmer of Hope Medical Center","url":"https://www.glimmerhopemed.com/"},{"@type":"MedicalOrganization","@id":"https://www.glimmerhopemed.com/#organization","name":"Glimmer of Hope Medical Center","alternateName":"عيادات بريق أمل","url":"https://www.glimmerhopemed.com/","logo":"https://www.glimmerhopemed.com/airo-assets/images/logo/horizontal","email":"info@glimmerhopemed.com","telephone":"+963988444301","address":{"@type":"PostalAddress","streetAddress":"Arnous, Al Rawda","addressLocality":"Damascus","addressCountry":"SY"},"medicalSpecialty":["Regenerative Medicine","Orthopaedic Surgery","Dermatology","Gynaecology","Pain Management"]}]}</script>
 </head>
 <body class="bg-white font-sans antialiased text-gray-800">
 
-<!-- HEADER -->
 <header class="sticky top-0 z-50 bg-white shadow-sm border-b-4 border-primary">
 <div class="container mx-auto px-4 flex items-center justify-between py-2">
-<a href="/" class="flex items-center shrink-0"><img src="https://www.glimmerhopemed.com/airo-assets/images/logo/horizontal" alt="Glimmer of Hope Medical Center" class="h-[86px] md:h-[96px] w-auto object-contain"></a>
+<a href="./index.html" class="flex items-center shrink-0"><img src="./airo-assets/images/logo/horizontal" alt="Glimmer of Hope Medical Center" class="h-[86px] md:h-[96px] w-auto object-contain"></a>
 <nav class="hidden lg:flex items-center gap-5 font-heading" aria-label="Main navigation">
-<a href="/" class="text-sm font-medium text-accent">Home</a>
-<a href="/treatments" class="text-sm font-medium text-primary hover:text-accent transition-colors">Treatments</a>
-<a href="/specialties" class="text-sm font-medium text-primary hover:text-accent transition-colors">Specialties</a>
-<a href="/training" class="text-sm font-medium text-primary hover:text-accent transition-colors">Training & Certification</a>
-<a href="/lab-solutions" class="text-sm font-medium text-primary hover:text-accent transition-colors">Lab Solutions</a>
-<a href="/about" class="text-sm font-medium text-primary hover:text-accent transition-colors">About</a>
-<a href="/contact" class="text-sm font-medium text-primary hover:text-accent transition-colors">Contact</a>
-<div class="relative"><button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold border text-primary hover:bg-gray-50">🇬🇧 EN <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button></div>
-<a href="/clinical-results" class="ml-2 px-5 py-2 rounded-full text-sm font-semibold text-white bg-primary hover:opacity-90">Photo Gallery</a>
-<a href="/contact" class="ml-2 px-5 py-2 rounded-full text-sm font-semibold text-white bg-accent hover:opacity-90">Book Consultation</a>
+<a href="./index.html" class="text-sm font-medium text-accent">Home</a>
+<a href="./Treatments.html" class="text-sm font-medium text-primary hover:text-accent">Treatments</a>
+<a href="./Specialties.html" class="text-sm font-medium text-primary hover:text-accent">Specialties</a>
+<a href="./Training.html" class="text-sm font-medium text-primary hover:text-accent">Training & Certification</a>
+<a href="./Lab-Solutions.html" class="text-sm font-medium text-primary hover:text-accent">Lab Solutions</a>
+<a href="./About.html" class="text-sm font-medium text-primary hover:text-accent">About</a>
+<a href="./Consultation.html" class="text-sm font-medium text-primary hover:text-accent">Contact</a>
+<a href="./Clinical-Results.html" class="ml-2 px-5 py-2 rounded-full text-sm font-semibold text-white bg-primary hover:opacity-90">Photo Gallery</a>
+<a href="./Consultation.html" class="ml-2 px-5 py-2 rounded-full text-sm font-semibold text-white bg-accent hover:opacity-90">Book Consultation</a>
 </nav>
 <button id="mobileBtn" class="lg:hidden p-2 rounded-md hover:bg-gray-100 text-primary" aria-label="Toggle menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button>
 </div>
 <div id="mobileNav" class="hidden lg:hidden border-t bg-white px-4 py-4 space-y-3 font-heading">
-<a href="/" class="block text-accent font-medium">Home</a>
-<a href="/treatments" class="block text-primary">Treatments</a><a href="/specialties" class="block text-primary">Specialties</a><a href="/training" class="block text-primary">Training & Certification</a><a href="/lab-solutions" class="block text-primary">Lab Solutions</a><a href="/about" class="block text-primary">About</a><a href="/contact" class="block text-primary">Contact</a>
-<a href="/contact" class="block bg-accent text-white text-center py-3 rounded-full font-semibold">Book Consultation</a>
+<a href="./index.html" class="block text-accent font-medium">Home</a>
+<a href="./Treatments.html" class="block text-primary">Treatments</a>
+<a href="./Specialties.html" class="block text-primary">Specialties</a>
+<a href="./Training.html" class="block text-primary">Training & Certification</a>
+<a href="./Lab-Solutions.html" class="block text-primary">Lab Solutions</a>
+<a href="./About.html" class="block text-primary">About</a>
+<a href="./Consultation.html" class="block text-primary">Contact</a>
+<a href="./Consultation.html" class="block bg-accent text-white text-center py-3 rounded-full font-semibold">Book Consultation</a>
 </div>
 </header>
 
-<!-- HERO -->
 <section class="relative overflow-hidden bg-primaryDark text-white">
 <div class="w-full border-b border-white/10 bg-[#0a1550]/60">
 <div class="container mx-auto px-4 py-3 flex items-center justify-center gap-3">
-<img src="https://www.glimmerhopemed.com/airo-assets/images/logo/horizontal" class="h-11 w-auto opacity-80" alt="">
+<img src="./airo-assets/images/logo/horizontal" class="h-11 w-auto opacity-80" alt="">
 <span class="text-xl md:text-4xl font-bold tracking-wide font-heading">GLIMMER OF HOPE MEDICAL CENTER</span>
 </div>
 </div>
@@ -78,20 +70,19 @@ fontFamily: { heading: ['Montserrat','sans-serif'], sans: ['Inter','sans-serif']
 <div class="md:col-span-3">
 <p class="text-xs font-semibold tracking-[0.2em] text-[#E8EAF6] mb-4 font-heading">THE AUTOLOGOUS CELL THERAPY</p>
 <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-6 font-heading"><span class="block text-white">Advancing Regenerative Medicine.</span><span class="block text-accent">Restoring Human Potential.</span></h1>
-<p class="text-blue-200 text-base md:text-lg leading-relaxed mb-8">Glimmer of Hope Medical Center delivers certified autologous cell therapies — PRP, PRF, BMAC, SVF, and Exosomes — across 20 clinical specialties, serving patients and training medical professionals worldwide.</p>
+<p class="text-blue-200 text-base md:text-lg leading-relaxed mb-8">Glimmer of Hope Medical Center delivers certified autologous cell therapies — PRP, PRF, BMAC, SVF, and Exosomes — across 20 clinical specialties.</p>
 <div class="flex flex-wrap gap-4 mb-10">
-<a href="/treatments" class="px-7 py-3 rounded-full font-semibold text-white text-sm bg-accent hover:opacity-90 transition-opacity">Explore Treatments</a>
-<a href="/training" class="px-7 py-3 rounded-full font-semibold text-white text-sm border border-white/60 hover:bg-white/10 transition-colors">Medical Professional Access</a>
+<a href="./Treatments.html" class="px-7 py-3 rounded-full font-semibold text-white text-sm bg-accent hover:opacity-90">Explore Treatments</a>
+<a href="./Training.html" class="px-7 py-3 rounded-full font-semibold text-white text-sm border border-white/60 hover:bg-white/10">Medical Professional Access</a>
 </div>
-<p class="text-blue-300 text-xs leading-relaxed">PRP · Platelet-Rich Plasma · PRF · Platelet-Rich Fibrin · BMAC · Bone Marrow Aspirate Concentrate · SVF · Stromal Vascular Fraction · Exosomes · Exosome Therapy</p>
+<p class="text-blue-300 text-xs leading-relaxed">PRP · PRF · BMAC · SVF · Exosomes</p>
 </div>
 <div class="md:col-span-2 flex justify-center">
-<div class="relative w-full max-w-sm"><img src="https://www.glimmerhopemed.com/airo-assets/images/about/clinical-expertise" alt="Glimmer of Hope surgeon with Magellan autologous cell therapy centrifuge system" class="rounded-2xl object-cover w-full shadow-2xl max-h-[480px]" width="480" height="480" loading="eager"></div>
+<div class="relative w-full max-w-sm"><img src="./airo-assets/images/about/clinical-expertise" alt="Glimmer of Hope surgeon" class="rounded-2xl object-cover w-full shadow-2xl max-h-[480px]" width="480" height="480" loading="eager"></div>
 </div>
 </div>
 </section>
 
-<!-- STATS -->
 <section class="py-10 bg-primary">
 <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
 <div><div class="text-4xl md:text-5xl font-bold font-heading">20</div><div class="text-sm text-[#E8EAF6]">Clinical Specialties</div></div>
@@ -101,20 +92,13 @@ fontFamily: { heading: ['Montserrat','sans-serif'], sans: ['Inter','sans-serif']
 </div>
 </section>
 
-<!-- CLINICAL SPECIALTIES - ALL 20 -->
-<section class="py-16 md:py-20 bg-lightbg">
-<div class="container mx-auto px-4">
-<div class="text-center mb-12"><h2 class="text-2xl md:text-4xl font-bold text-primary font-heading mb-3">Clinical Specialties</h2><p class="text-sm text-gray-500 max-w-3xl mx-auto">Orthopaedic & Sports Medicine · Dermatology · Gynaecology & Fertility · Pain Management · Wound Care · Ophthalmology · Urology · Oral & Maxillofacial · Neurology · Cardiology</p></div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Orthopaedics & Sports Medicine</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Knee osteoarthritis</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Rotator cuff injury</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Achilles tendinopathy</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Cartilage defects</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Tennis elbow</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Plantar fasciitis</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">BMAC</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Dermatology & Aesthetics</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Skin rejuvenation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Acne scarring</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Fine lines & wrinkles</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Scar remodelling</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Skin laxity</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Hyperpigmentation</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">Exosomes</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Hair Restoration</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Androgenetic alopecia</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Alopecia areata</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Diffuse hair thinning</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Post-partum hair loss</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Traction alopecia</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">Exosomes</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Gynaecology & Sexual Health</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Vaginal rejuvenation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Stress urinary incontinence</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Lichen sclerosus</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Sexual dysfunction</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Pelvic floor rehabilitation</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">Exosomes</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Pain Management</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Chronic back pain</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Facet joint syndrome</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Sacroiliac dysfunction</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Neuropathic pain</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Myofascial pain syndrome</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">BMAC</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Ophthalmology</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Dry eye disease</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Corneal epithelial defects</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Ocular surface disorders</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Post-LASIK dry eye</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Neurotrophic keratitis</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Dentistry & Oral Surgery</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Socket preservation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Implant site preparation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Bone graft augmentation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Periodontal regeneration</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Sinus lift procedures</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Wound Care & Tissue Repair</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Diabetic foot ulcers</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Chronic non-healing wounds</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Burns</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Post-surgical defects</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Pressure ulcers</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Venous leg ulcers</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">SVF</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Urology</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Erectile dysfunction</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Peyronie's disease</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Male urinary incontinence</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Post-prostatectomy rehabilitation</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">Exosomes</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRF</span></div></div>
-<div class="bg-white rounded-xl shadow-sm overflow-hidden p-6" style="border-top:4px solid #1A237E"><h3 class="font-bold text-primary font-heading mb-3">Neurology & Neurorehabilitation</h3><ul class="text-sm text-gray-600 space-y-1 mb-4"><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Peripheral neuropathy</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Post-stroke rehabilitation</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Nerve regeneration</li><li class="flex gap-2"><span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>Neuropathic pain syndromes</li></ul><div class="flex flex-wrap gap-2"><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">Exosomes</span><span class="px-2 py-0.5 rounded text-xs font-semibold text-white bg-primary">PRP</span></div></div>
-<div
+<script>
+document.addEventListener(\'DOMContentLoaded\', function() {
+  document.documentElement.classList.add(\'loaded\');
+  const btn = document.getElementById(\'mobileBtn\');
+  const nav = document.getElementById(\'mobileNav\');
+  if(btn && nav) btn.addEventListener(\'click\', () => nav.classList.toggle(\'hidden\'));
+});
+</script>
+</body>
+</html>
